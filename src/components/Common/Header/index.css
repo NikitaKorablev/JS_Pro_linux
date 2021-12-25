@@ -1,0 +1,46 @@
+.header {
+  height: 10vh;
+  display: flex;
+  background-color: rgb(179, 212, 255);
+  justify-content: space-between;
+}
+
+.header .logo {
+  color: black;
+  font-size: 60px;
+  margin: auto 0 auto 5%;
+  /* background-color: white; */
+}
+
+.header ul {
+  height: 100%;
+  width: 50%;
+  padding-left: 0;
+  margin: auto 5% auto 0;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* display: flex; */
+}
+
+.header ul li {
+  min-width: 85px;
+  font-size: 25px;
+  list-style-type: none;
+  height: auto;
+  text-align: center;
+  display: flex;
+}
+
+.header ul li a {
+  height: auto;
+  text-decoration: none;
+  color: inherit;
+  margin: auto;
+}
+
+.header ul li a:hover {
+  color: white;
+  transition: 0.2s;
+}

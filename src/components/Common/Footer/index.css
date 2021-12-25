@@ -1,0 +1,20 @@
+.footer {
+  height: 50vh;
+  background-color: rgb(179, 212, 255);
+  display: flex;
+  flex-direction: row;
+}
+.footer .left {
+  height: inherit;
+  width: 50%;
+  display: flex;
+  /* background-color: orange; */
+}
+.footer .left .text {
+  width: 500px;
+  margin: auto;
+}
+.footer .right {
+  height: 50%;
+  width: 50%;
+}

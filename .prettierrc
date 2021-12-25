@@ -1,0 +1,34 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[html]": {
+        "editor.formatOnSave": false
+    },
+    "[json]": {
+        "editor.formatOnSave": false
+    },
+    "eslint.alwaysShawStatus": true,
+    "editor.codeActionOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "cSpell.userWords": [
+        "волосы"
+    ],
+    "git.enableSmartCommit": true,
+    "javascript.updateImportOnFileMove.enabled": "always",
+    "gitlens.vies.repositories.branches.layout": "list",
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "timeline.excludeSources": [
+        "git-history"
+    ],
+    "editor.renderControlCharacters": false,
+    "json.maxItemsComputed": 15000,
+    "files.autoSave": "afterDelay"
+}
